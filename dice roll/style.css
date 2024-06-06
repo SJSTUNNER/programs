@@ -1,0 +1,35 @@
+#container{
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+button{
+   font-size: 2rem;
+   background-color: hsl(240, 82%, 56%);
+   color: aliceblue;
+   border: none;
+   border-radius: 10px;
+   padding: 10px 15px;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+button:hover{
+    background-color: hsl(240, 41%, 30%);
+}
+
+button:active{
+    background-color: rgb(24, 99, 238);
+    color: black;
+    border: 1px solid black;
+}
+
+#diceNum{
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
